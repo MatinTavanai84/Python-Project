@@ -1,1 +1,104 @@
-print
+Python 3.13.13 (main, May 12 2026, 00:20:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> a = "matin"
+>>> b = 10
+>>> c = 1.7738
+>>> print(a)
+matin
+>>> print(b)
+10
+>>> print(c)
+1.7738
+>>> print(2+2)
+4
+>>> type(a)
+<class 'str'>
+>>> type(b)
+<class 'int'>
+>>> type(c)
+<class 'float'>
+>>> int(c)
+1
+>>> float(b)
+10.0
+>>> 1 and 1
+1
+>>> 1 and 0
+0
+>>> 0 and 1
+0
+>>> 0 and 0
+0
+>>> 1 or 1
+1
+>>> 1 or 0
+1
+>>> 0 or 1
+1
+>>> 0 or 0
+0
+>>> true and true
+Traceback (most recent call last):
+  File "<python-input-20>", line 1, in <module>
+    true and true
+    ^^^^
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> True and True
+True
+>>> True and False
+False
+>>> False and True
+False
+>>> False and False
+False
+>>> True or True
+True
+>>> True or False
+True
+>>> False or True
+True
+>>> False or False
+False
+>>> 2 and 3
+3
+>>> 3 and 2
+2
+>>> 2 and 2
+2
+>>> 3 and 3
+3
+>>> 2 or 3
+2
+>>> 3 or 2
+3
+>>> 3 or 3
+3
+>>> 2 or 2
+2
+>>> 0 and 5
+0
+>>> 5 and 0
+0
+>>> 5 and 5
+5
+>>> 0 and 0
+0
+>>> 0 or 5
+5
+>>> 5 or 0
+5
+>>> 0 or 0
+0
+>>> 5 or 5
+5
+>>> def matin(a,b,c):
+...     d=a+b+c
+...     return d
+...     
+>>> print(matin)
+>>> matin(2,2,2)
+6
+>>> matin(6,6,6)
+18
+>>> matin("هوا","سرد","است")
+'هواسرداست'
