@@ -1,0 +1,29 @@
+Python 3.13.13 (main, May 12 2026, 00:20:28)  2026, 00:20:28) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import math as m
+>>> def jazr(a,b):
+...     y = m.sqrt(a/b+1)
+...     return y
+...
+>>> jazr(64,64)
+1.4142135623730951
+>>> def ghaderh_motlagh(a,b):
+...     y = abs(a/b-1)
+...     return y
+...
+>>> ghaderh_motlagh(10,5)
+1.0
+>>>
+>>> def senos(x):
+...     y = m.sin(x+2)
+...     return y
+...
+>>> senos(1)
+0.1411200080598672
+>>> def tanjant(x,b):
+...     y = m.tan(1+x/b)
+...     return y
+...
+>>> tanjant(15,10)
+-0.7470222972386603
+>>>
