@@ -23,7 +23,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 'این عدد فرد می باشد.'
 >>> def tabeiii(x):
 ...     if (x < 0):
-...         return abs(x)
+...         return -x
 ...     else:
 ...         return x
 ...
