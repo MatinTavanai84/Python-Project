@@ -16,7 +16,7 @@ def tabeii(x):
 
 def tabeiii(x):
     if (x < 0):
-        return abs(x)
+        return -x
     else:
         return x
 
