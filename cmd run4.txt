@@ -23,7 +23,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 'این عدد فرد می باشد.'
 >>> def tabeiii(x):
 ...     if (x < 0):
-...         return -x
+...         return -1 * (x)
 ...     else:
 ...         return x
 ...
@@ -41,8 +41,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 ...
 1
 >>> b = -1
->>> if (a >= 0):
-...     print(a)
+>>> if (b >= 0):
+...     print(b)
 ... else:
 ...     print("خنثی")
 ...
