@@ -35,8 +35,8 @@ if (a >= 0):
     print(a)
 
 b = -1
-if (a >= 0):
-    print(a)
+if (b >= 0):
+    print(b)
 else:
     print("خنثی")
 
